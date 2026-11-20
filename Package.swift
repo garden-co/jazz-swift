@@ -1,9 +1,9 @@
 // swift-tools-version:6.0
-// Jazz for Swift 2.0.0-alpha.68: the mirror of packages/jazz-swift in
+// Jazz for Swift 2.0.0-alpha.69: the mirror of packages/jazz-swift in
 // garden-co/jazz, published by .github/workflows/swift-mirror.yml. Do not
 // edit here: change garden-co/jazz.
 //
-//     .package(url: "https://github.com/garden-co/jazz-swift", exact: "2.0.0-alpha.68")
+//     .package(url: "https://github.com/garden-co/jazz-swift", exact: "2.0.0-alpha.69")
 //
 // On Apple platforms the Jazz core (libjazz_ffi) is the prebuilt
 // JazzFFI.xcframework attached to the release. Elsewhere (Linux) it's a
@@ -14,7 +14,7 @@ import PackageDescription
 
 #if canImport(Darwin)
     let jazzFFI: Target = .binaryTarget(
-        name: "jazz_ffiFFI", url: "https://github.com/garden-co/jazz/releases/download/v2.0.0-alpha.68/JazzFFI.xcframework.zip", checksum: "577c9974b68edad16c51ccf5621a7d144fd97f8549ce692bdd6fe312f46c74b5")
+        name: "jazz_ffiFFI", url: "https://github.com/garden-co/jazz/releases/download/v2.0.0-alpha.69/JazzFFI.xcframework.zip", checksum: "dafbb7d3caa052bce7639fa860e45bf06c90cd65a14677beb937d04627697826")
 #else
     let jazzFFI: Target = .systemLibrary(name: "jazz_ffiFFI", path: "Sources/jazz_ffiFFI", pkgConfig: "jazz_ffi")
 #endif
