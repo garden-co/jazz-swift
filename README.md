@@ -1,8 +1,8 @@
-# Jazz for Swift 2.0.0-alpha.70
+# Jazz for Swift 2.0.0-beta.0
 
 Published from [garden-co/jazz](https://github.com/garden-co/jazz) (packages/jazz-swift) at
-`d4b2e1c94c08ee05290cfeaf671368fc3907e3d4`; change it there. See https://jazz.tools/docs/setup/swift.
+`7ea1e85606e8570554851de3f0d3c00c6dcfd373`; change it there. See https://jazz.tools/docs/setup/swift.
 
 ```swift
-.package(url: "https://github.com/garden-co/jazz-swift", exact: "2.0.0-alpha.70")
+.package(url: "https://github.com/garden-co/jazz-swift", exact: "2.0.0-beta.0")
 ```
